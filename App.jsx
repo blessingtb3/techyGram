@@ -1,13 +1,21 @@
+import 'react-native-gesture-handler';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
 import React from 'react';
-import { SafeAreaView } from 'react-native';
-import Home from './screens/Home/Home';
+import { NavigationContainer } from '@react-navigation/native';
+import MainNavigation from './navigation/MainNavigation';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <Home/>
-    </SafeAreaView>
+    // informs react native that we are implementing some navigation
+    // <GestureHandlerRootView style={{ flex: 1 }}>
+      <NavigationContainer>
+        <MainNavigation/>
+      </NavigationContainer>
+    // </GestureHandlerRootView>
   );
 };
 
 export default App;
+
+//project dir: cd Documents/Coding/react-native/techyGram

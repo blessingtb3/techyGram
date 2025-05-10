@@ -1332,6 +1332,30 @@ PODS:
     - React-jsiexecutor
     - React-RCTFBReactNativeSpec
     - ReactCommon/turbomodule/core
+  - react-native-pager-view (6.7.1):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-hermes
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - react-native-safe-area-context (5.4.0):
     - DoubleConversion
     - glog
@@ -1407,6 +1431,8 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - react-native-viewpager (5.0.11):
+    - React-Core
   - React-NativeModulesApple (0.79.2):
     - glog
     - hermes-engine
@@ -1729,7 +1755,11 @@ PODS:
     - React-logger (= 0.79.2)
     - React-perflogger (= 0.79.2)
     - React-utils (= 0.79.2)
-  - RNCMaskedView (0.3.2):
+  - RNCMaskedView (0.1.11):
+    - React
+  - RNDeviceInfo (14.0.4):
+    - React-Core
+  - RNGestureHandler (2.25.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1753,9 +1783,107 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNDeviceInfo (14.0.4):
+  - RNReanimated (3.17.5):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
     - React-Core
-  - RNGestureHandler (2.25.0):
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-hermes
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - RNReanimated/reanimated (= 3.17.5)
+    - RNReanimated/worklets (= 3.17.5)
+    - Yoga
+  - RNReanimated/reanimated (3.17.5):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-hermes
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - RNReanimated/reanimated/apple (= 3.17.5)
+    - Yoga
+  - RNReanimated/reanimated/apple (3.17.5):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-hermes
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
+  - RNReanimated/worklets (3.17.5):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-hermes
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - RNReanimated/worklets/apple (= 3.17.5)
+    - Yoga
+  - RNReanimated/worklets/apple (3.17.5):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1947,7 +2075,9 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
+  - react-native-pager-view (from `../node_modules/react-native-pager-view`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - "react-native-viewpager (from `../node_modules/@react-native-community/viewpager`)"
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-oscompat (from `../node_modules/react-native/ReactCommon/oscompat`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -1979,9 +2109,10 @@ DEPENDENCIES:
   - ReactAppDependencyProvider (from `build/generated/ios`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - "RNCMaskedView (from `../node_modules/@react-native-masked-view/masked-view`)"
+  - "RNCMaskedView (from `../node_modules/@react-native-community/masked-view`)"
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
@@ -2069,8 +2200,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   React-microtasksnativemodule:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
+  react-native-pager-view:
+    :path: "../node_modules/react-native-pager-view"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-viewpager:
+    :path: "../node_modules/@react-native-community/viewpager"
   React-NativeModulesApple:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios"
   React-oscompat:
@@ -2134,11 +2269,13 @@ EXTERNAL SOURCES:
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
   RNCMaskedView:
-    :path: "../node_modules/@react-native-masked-view/masked-view"
+    :path: "../node_modules/@react-native-community/masked-view"
   RNDeviceInfo:
     :path: "../node_modules/react-native-device-info"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   RNSVG:
@@ -2187,7 +2324,9 @@ SPEC CHECKSUMS:
   React-logger: 8edfcedc100544791cd82692ca5a574240a16219
   React-Mapbuffer: c3f4b608e4a59dd2f6a416ef4d47a14400194468
   React-microtasksnativemodule: 054f34e9b82f02bd40f09cebd4083828b5b2beb6
+  react-native-pager-view: f238ed7fb53458bd03366944a33686f067c83e9a
   react-native-safe-area-context: 562163222d999b79a51577eda2ea8ad2c32b4d06
+  react-native-viewpager: ddaf7a06b1864faed597e6742306a8d24c3e0785
   React-NativeModulesApple: 2c4377e139522c3d73f5df582e4f051a838ff25e
   React-oscompat: ef5df1c734f19b8003e149317d041b8ce1f7d29c
   React-perflogger: 9a151e0b4c933c9205fd648c246506a83f31395d
@@ -2219,9 +2358,10 @@ SPEC CHECKSUMS:
   ReactAppDependencyProvider: 04d5eb15eb46be6720e17a4a7fa92940a776e584
   ReactCodegen: c63eda03ba1d94353fb97b031fc84f75a0d125ba
   ReactCommon: 76d2dc87136d0a667678668b86f0fca0c16fdeb0
-  RNCMaskedView: ae521efb1c6c2b183ae0f8479487db03c826184c
+  RNCMaskedView: 4c5ee1c8667d56077246cc6d1977f77393923560
   RNDeviceInfo: d863506092aef7e7af3a1c350c913d867d795047
   RNGestureHandler: ebef699ea17e7c0006c1074e1e423ead60ce0121
+  RNReanimated: 2313402fe27fecb7237619e9c6fcee3177f08a65
   RNScreens: 5621e3ad5a329fbd16de683344ac5af4192b40d3
   RNSVG: 794f269526df9ddc1f79b3d1a202b619df0368e3
   RNVectorIcons: 941a39b5d3b9d8cf8ac2e2fc09b07bfafbcf9796

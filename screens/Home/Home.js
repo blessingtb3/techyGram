@@ -7,11 +7,12 @@ import UserStory from '../../components/userStory/UserStory';
 import UserPost from '../../components/UserPost/UserPost';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { scaleFontSize } from '../../assets/styles/scaling';
-import { NavigationContainer } from '@react-navigation/native';
+import styles from '../../assets/styles/globalStyle';
+import { Routes } from '../../navigation/routes';
 //react native platform api documentation: https://reactnative.dev/docs/platform
 
 
-const Home = () => {
+const Home = ({navigation}) => {
 
   //user stories array
   const userStories = [
@@ -106,7 +107,6 @@ const Home = () => {
 
   //user posts array
   const userPosts = [
-
     {
       firstName: 'Springboks',
       location: 'Stade de France, SD',
@@ -220,9 +220,7 @@ const Home = () => {
 
 
   return (
-    <NavigationContainer>
-      <SafeAreaView>
-
+      <SafeAreaView style={styles.backgroundWhite}>
         {/* FlatList with user posts */}
         <View>
           <FlatList 
@@ -231,7 +229,7 @@ const Home = () => {
             <View style={globalStyle.header}>
               <Title title={"Let's explore"}/>
               {/* touchable component that dims when being touched */}
-              <TouchableOpacity style={globalStyle.messageIcon}>
+              <TouchableOpacity style={globalStyle.messageIcon} onPress={() => {navigation.navigate(Routes.Profile)}}>
               {/* icon */}
               <FontAwesomeIcon icon={faEnvelope} size={scaleFontSize(20)}/>
               {/* message number container */}
@@ -304,7 +302,6 @@ const Home = () => {
           )}/>
         </View>
       </SafeAreaView>
-    </NavigationContainer>
   );
 };
 
