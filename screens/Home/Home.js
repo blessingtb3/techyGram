@@ -11,7 +11,6 @@ import styles from '../../assets/styles/globalStyle';
 import { Routes } from '../../navigation/routes';
 //react native platform api documentation: https://reactnative.dev/docs/platform
 
-
 const Home = ({navigation}) => {
 
   //user stories array
@@ -156,6 +155,8 @@ const Home = ({navigation}) => {
     const getInitialDataPosts = pagination(userPosts, 1, userPostsPageSize);
     setUserPostsRedenderedData(getInitialDataPosts);
     setisLoadingUserPosts(false);
+
+    console.log('techyGram initiated!')
 
   }, []);
 

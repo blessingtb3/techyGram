@@ -9,10 +9,6 @@ import MainNavigation from './navigation/MainNavigation';
 
 const App = () => {
 
-  const useEffect = ( ()=>{
-    console.log('app has launched');
-  }, []);
-
   return (
     // informs react native that we are implementing some navigation
     // <GestureHandlerRootView style={{ flex: 1 }}>
