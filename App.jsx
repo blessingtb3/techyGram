@@ -1,11 +1,18 @@
-import 'react-native-gesture-handler';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
+if (__DEV__) {
+  require("./ReactotronConfig");
+}
 
-import React from 'react';
+import 'react-native-gesture-handler';
+import React, {useEffect} from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import MainNavigation from './navigation/MainNavigation';
 
 const App = () => {
+
+  const useEffect = ( ()=>{
+    console.log('app has launched');
+  }, []);
+
   return (
     // informs react native that we are implementing some navigation
     // <GestureHandlerRootView style={{ flex: 1 }}>
